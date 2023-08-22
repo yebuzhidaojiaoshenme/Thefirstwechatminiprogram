@@ -1,0 +1,21 @@
+/* container的样式设计 */
+.container{
+  height: 100vh; 
+  /* vh 高度单位 */
+  display: flex;
+  /* flex布局方法 */
+  flex-direction: column;
+  /* column 垂直布局 */
+  align-items:center;
+  /* 水平居中 */
+  justify-content: space-around;
+  /* 垂直方向分散处理 */
+}
+/* 不加. 所有image采用一种方法设计 */
+image{
+  width: 300rpx;/*宽度*/
+  border-radius: 50%;/*四个角变成圆角形状*/
+}
+text{
+  font-size: 50rpx;/*字体大小*/
+}

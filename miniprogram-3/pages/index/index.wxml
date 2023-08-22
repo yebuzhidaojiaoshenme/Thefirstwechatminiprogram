@@ -1,0 +1,10 @@
+<view class = 'container'> 
+  <image src = '{{src}}' mode = 'widthFix'></image>
+  <text>{{name}}</text>
+  <button open-type='getUserInfo' bindgetuserinfo='getProfile'>
+  <!-- open-type='getUserInfo'表示激活获取微信用户信息功能 -->
+  <!-- bindgetuserinfo='getMyInfo' 表示将获得的数据传送给自定义函数getMyInfo -->
+        点击获取头像和昵称
+  </button>
+</view>
+
